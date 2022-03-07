@@ -24,13 +24,16 @@ Describe each of the type of alerts fired by this agent
   - Fired when a transaction involves a call to a StakingRewards contract governance function
   - Severity is always set to "low"
   - Type is always set to "info"
-  - Metadata
+  - Metadata:
+    - from: Transaction sender
     - args: Function call arguments in a JSON object string
 
 - HYO-SOLACE-6
   - Fired when a transaction contains a StakingRewards contract governance event log
   - Severity is always set to "medium"
   - Type is always set to "info"
+  - Metadata:
+    - args: Event arguments in a JSON object string
 
 ## Test Data
 
