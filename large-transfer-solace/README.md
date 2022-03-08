@@ -10,8 +10,6 @@ This agent detects large transfers (>= 1M) of SOLACE.
 
 ## Alerts
 
-Describe each of the type of alerts fired by this agent
-
 - HYO-SOLACE-1
   - Fired when a transaction emits a Transfer event with value greater than or equal to 1M SOLACE units
   - Severity is always set to "info"

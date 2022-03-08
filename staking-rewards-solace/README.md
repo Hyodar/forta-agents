@@ -18,8 +18,6 @@ Events:
 
 ## Alerts
 
-Describe each of the type of alerts fired by this agent
-
 - HYO-SOLACE-5
   - Fired when a transaction involves a call to a StakingRewards contract governance function
   - Severity is always set to "low"

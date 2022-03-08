@@ -23,8 +23,6 @@ BondTeller addresses (ETH):
 
 ## Alerts
 
-Describe each of the type of alerts fired by this agent
-
 - HYO-SOLACE-4
   - Fired when a transaction makes a BondTeller deposit that mints >= 1M SOLACE.
   - Severity is always set to "info"
