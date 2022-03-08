@@ -169,7 +169,7 @@ describe("large solace transfer agent", () => {
       expect(findings).toStrictEqual([
         Finding.fromObject({
           name: "Large SOLACE transfer",
-          description: `Transfer value: ${toUnits(exactValue).toString(10)} SOLACE`,
+          description: `${toUnits(exactValue).toString(10)} SOLACE transferred`,
           alertId: "HYO-SOLACE-1",
           severity: FindingSeverity.Info,
           type: FindingType.Info,
@@ -182,7 +182,7 @@ describe("large solace transfer agent", () => {
         }),
         Finding.fromObject({
           name: "Large SOLACE transfer",
-          description: `Transfer value: ${toUnits(immediateGreaterValue).toString(10)} SOLACE`,
+          description: `${toUnits(immediateGreaterValue).toString(10)} SOLACE transferred`,
           alertId: "HYO-SOLACE-1",
           severity: FindingSeverity.Info,
           type: FindingType.Info,
