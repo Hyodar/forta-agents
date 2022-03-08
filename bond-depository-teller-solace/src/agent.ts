@@ -5,13 +5,13 @@ import {
   FindingType,
   HandleTransaction, 
   TransactionEvent,
-} from 'forta-agent'
+} from "forta-agent";
 
 import {
   STAKING_REWARDS_ADDRESS,
   TELLER_ADDED_ABI,
   TELLER_REMOVED_ABI,
-} from './constants'
+} from "./constants";
 
 function provideHandleTransaction(
   listenAddress: string,
@@ -56,10 +56,10 @@ function provideHandleTransaction(
     });
 
     return findings;
-  }
+  };
 }
 
 export default {
   provideHandleTransaction,
   handleTransaction: provideHandleTransaction(STAKING_REWARDS_ADDRESS),
-}
+};

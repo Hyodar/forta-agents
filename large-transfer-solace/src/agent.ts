@@ -63,10 +63,10 @@ function provideHandleTransaction(
     });
 
     return findings
-  }
+  };
 }
 
 export default {
   provideHandleTransaction,
   handleTransaction: provideHandleTransaction(TRANSFER_THRESHOLD, SOLACE_ADDRESS),
-}
+};

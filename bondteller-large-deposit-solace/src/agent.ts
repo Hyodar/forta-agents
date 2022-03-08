@@ -97,10 +97,10 @@ function provideHandleTransaction(
     });
     
     return findings;
-  }
+  };
 }
 
 export default {
   provideHandleTransaction,
   handleTransaction: provideHandleTransaction(BOND_TELLER_CONTRACTS, AMOUNT_THRESHOLD),
-}
+};

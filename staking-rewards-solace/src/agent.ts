@@ -74,10 +74,10 @@ function provideHandleTransaction(
     });
 
     return findings;
-  }
+  };
 }
 
 export default {
   provideHandleTransaction,
   handleTransaction: provideHandleTransaction(STAKING_REWARDS_ADDRESS),
-}
+};
