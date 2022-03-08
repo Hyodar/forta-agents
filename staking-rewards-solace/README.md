@@ -9,8 +9,8 @@ Functions:
 - `setTimes(uint256 startTime_, uint256 endTime_)`
 
 Events:
-- `RewardsSet()`
-- `FarmTimesSet()`
+- `RewardsSet(uint256 rewardPerSecond)`
+- `FarmTimesSet(uint256 startTime, uint256 endTime)`
 
 ## Supported Chains
 
@@ -32,7 +32,3 @@ Events:
   - Type is always set to "info"
   - Metadata:
     - args: Event arguments in a JSON object string
-
-## Test Data
-
-N/A

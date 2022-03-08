@@ -1,5 +1,5 @@
 {
-  "name": "bondteller-governance-solace",
+  "name": "bondteller-governance-solace-agent",
   "version": "0.0.1",
   "description": "Forta agent that monitors BondTeller governance functions and events on Solace Finance",
   "scripts": {

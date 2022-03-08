@@ -20,7 +20,7 @@ import {
   TELLER_REMOVED_SIGNATURE,
 } from "./constants";
 
-describe("stakingrewards governance solace agent", () => {
+describe("bond depository teller solace agent", () => {
   let handleTransaction: HandleTransaction;
   const listenAddress = STAKING_REWARDS_ADDRESS;
 

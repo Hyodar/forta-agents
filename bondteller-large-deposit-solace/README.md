@@ -4,7 +4,7 @@
 
 This agent detects large deposits (>= 1M SOLACE) in Solace Finance's BondTeller contracts.
 
-This is done by detecting calls to `deposit()` and `depositSigned()` and getting the payout value from the call output.
+This is done by detecting calls to the various `deposit` methods and getting the payout value from the call output.
 
 Duplicate findings are not generated if one contract acts as another's proxy.
 
