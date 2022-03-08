@@ -6,11 +6,12 @@ import {
   HandleTransaction
 } from "forta-agent";
 import {
-  createAddress,
   encodeEventSignature,
   encodeParameter,
+  createAddress,
   TestTransactionEvent,
 } from "forta-agent-tools";
+
 import agent from "./agent";
 
 import {
